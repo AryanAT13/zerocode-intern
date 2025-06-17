@@ -1,0 +1,12 @@
+## Finance QA Dataset
+- **Source**: Synthetic data generated using seed finance topics
+- **Size**: 550 QA pairs
+- **Cleaning**: 
+  - Removed duplicate phrases
+  - Validated finance terminology using Wikipedia glossary
+- **Topics Coverage**: 
+  - Investment strategies (35%)
+  - Personal finance (30%) 
+  - Taxation (20%)
+  - Crypto/emerging tech (15%)
+- **License**: CC0 1.0 (Public Domain)
