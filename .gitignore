@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# macOS Finder files
+.DS_Store
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Docker build artifacts
+docker-compose.override.yml
+**/Dockerfile.*
+**/docker-compose.*.local.yml
+
+# Python package installer
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Hugging Face cache & datasets
+~/.cache/huggingface/
+app/data/finance_qa/    # if you don’t want to commit the raw cache
+*.hf.*
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# IDE/editor folders
+.idea/
+*.swp
+*~
+
+# Environment variables
+.env
+.env.local
