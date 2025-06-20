@@ -144,7 +144,7 @@ if __name__ == "__main__":
     print("🔄 Building dataset… 10 manual + 540 Gemini‐generated = 550 total QA pairs")
     dataset = MANUAL_QA_PAIRS.copy()
     
-    for _ in tqdm(range(5), desc="Generating with Gemini"):
+    for _ in tqdm(range(540), desc="Generating with Gemini"):
         topic = random.choice(SYNTHETIC_TOPICS)
         dataset.append(generate_qa_pair(topic))
 
