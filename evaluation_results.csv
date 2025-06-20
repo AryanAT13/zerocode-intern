@@ -1,4 +1,0 @@
-question,category,base_response,rag_response,bleu,rouge
-What's a Roth IRA?,retirement,IRA,Retirement planning,0.0,0.0
-How do dividends work?,investing,Dividends are a measure of the amount of money a dividend has.,3) [...],0.0,0.0
-Best way to pay off credit card debt?,personal_finance,Use a credit card to pay off your debts.,mortgage types,0.0,0.0

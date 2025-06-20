@@ -1,0 +1,4 @@
+question,category,base_response,rag_response,bleu,rougeL,bertscore_f1
+What's a Roth IRA?,retirement planning,a retirement account,Investments,0.0,0.0,0.85
+How do dividends work?,stock valuation,Dividends are a type of payment that is paid out to the shareholders.,Estimate the company's worth,0.0,0.1111,0.8522
+Best way to pay off credit card debt?,personal finance,Pay off the balance of the card with a credit card.,**Discounted Cash Flow (DCF) Analysis,0.0,0.0,0.7917
